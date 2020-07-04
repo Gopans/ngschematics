@@ -15,6 +15,14 @@ schematics --help
 
 `npm run test` will run the unit tests, using Jasmine as a runner and test framework.
 
+### Running in Local
+To run this in local to the below
+1. npm link first-schematic
+2. cd to the schematic-test-app
+3. npm link first-schematic to schematic-test-app
+4. Run the command " ng generate first-schematic:first-schematic --name=appfeature --path=src/app"
+
+
 ### Publishing
 
 To publish, simply do:
